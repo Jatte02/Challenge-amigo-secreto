@@ -16,7 +16,7 @@ function agregarAmigo() {
         listaAmigos.push(texto);
 
         entrada.value = "";   //Limpio el campo
-        entrada.focus({preventScroll: true})  //Devuelve el enfoque sin mover el scroll
+        entrada.focus({ preventScroll: true })  //Devuelve el enfoque sin mover el scroll
         console.log(listaAmigos);
     }
 }
