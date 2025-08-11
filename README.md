@@ -1,5 +1,3 @@
-# Challenge-amigo-secreto
-
 # Sorteo de Amigos
 
 Este proyecto es una aplicación web simple en JavaScript para agregar nombres a una lista y seleccionar uno de forma aleatoria. Ideal para juegos como "Amigo Secreto" o sorteos simples.
