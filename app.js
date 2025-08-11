@@ -34,3 +34,14 @@ function recorrerArray() {
 
 } 
 
+function sortearAmigo() {
+    if (lista.length === 0) {
+        alert("No hay nombres para sortear.")
+        return;
+}   const i = Math.floor(Math.random() * lista.length);
+    console.log("Indice Aleatorio:", i)
+
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = lista[i];
+
+}
